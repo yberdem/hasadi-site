@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kullanım Koşulları · Hasadi</title>
+<meta name="description" content="Hasadi: tarım ürünleri ve yevmiyeli tarım işçisi ilanları. Aracı yok, komisyon yok.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>:root {
+  --bg: #f2f3ea;
+  --surface: #fafaf6;
+  --border: rgba(52, 60, 24, 0.10);
+  --text: #232914;
+  --muted: #5c5f4b;
+  --accent: #5b6c2d;
+  --accent-ink: #56672a;
+  --accent-soft: rgba(91, 108, 45, 0.11);
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11130d;
+    --surface: #191c14;
+    --border: rgba(236, 240, 222, 0.09);
+    --text: #eceee2;
+    --muted: #9da28b;
+    --accent: #9cb060;
+    --accent-ink: #afc274;
+    --accent-soft: rgba(156, 176, 96, 0.14);
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent-ink); }
+h1, h2, h3, .brand { font-family: 'Bricolage Grotesque', Inter, sans-serif; letter-spacing: -0.02em; }
+
+.top {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand { display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 800; color: var(--text); text-decoration: none; }
+.brand img { border-radius: 9px; }
+nav { display: flex; flex-wrap: wrap; gap: 6px; }
+nav a { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 14px; padding: 6px 12px; border-radius: 999px; }
+nav a:hover { color: var(--text); }
+nav a[aria-current='page'] { color: var(--text); background: var(--accent-soft); }
+
+main { max-width: 820px; margin: 0 auto; padding: 8px 16px 48px; }
+
+.hero { padding: 48px 0 32px; }
+.hero-icon { border-radius: 24px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15); }
+.hero h1 { font-size: clamp(36px, 7vw, 60px); line-height: 1.05; margin: 28px 0 16px; font-weight: 800; }
+.hero h1 span { color: var(--accent-ink); }
+.lead { font-size: 18px; color: var(--muted); max-width: 600px; margin: 0; }
+.soon { display: inline-block; margin-top: 24px; padding: 8px 16px; border-radius: 999px; background: var(--accent-soft); color: var(--accent-ink); font-weight: 600; font-size: 14px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 20px; }
+.card h3 { margin: 0 0 6px; font-size: 19px; }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+
+.doc { background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: clamp(20px, 5vw, 40px); }
+.eyebrow { margin: 0; color: var(--accent-ink); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; }
+.doc h1 { font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 8px 0 24px; }
+.doc h2 { font-size: 19px; margin: 28px 0 6px; }
+.doc p { margin: 0; }
+mark { background: var(--accent-soft); color: var(--accent-ink); padding: 0 4px; border-radius: 4px; }
+
+footer { max-width: 820px; margin: 0 auto; padding: 24px 16px 40px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--border); }
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html"><img src="icon.png" alt="" width="32" height="32"> Hasadi</a>
+  <nav><a href="gizlilik.html">Gizlilik</a><a href="kosullar.html" aria-current="page">Kullanım koşulları</a><a href="hesap-silme.html">Hesap silme</a></nav>
+</header>
+<main>
+<article class="doc">
+  <p class="eyebrow">Taslak · Ekim 2026</p>
+  <h1>Kullanım Koşulları</h1>
+  <section><h2>Hizmetin kapsamı</h2><p>Hasadi, tarım ürünü satıcıları ile alıcıları ve yevmiyeli tarım işi verenler ile çalışanları bir araya getiren bir ilan platformudur. Hasadi, kullanıcılar arasındaki alışverişin veya iş ilişkisinin tarafı değildir; ödeme, teslimat, ücret ve çalışma koşulları tamamen taraflar arasında belirlenir.</p></section>
+  <section><h2>İlan ücreti</h2><p>Uygulamanın deneme döneminde ilan yayınlamak ücretsizdir. Deneme dönemi bittikten sonra ilan yayınlamak ücretli olur; ücret ödemeden önce uygulamada gösterilir, ödeme App Store veya Google Play üzerinden alınır ve ilan 30 gün yayında kalır. Ücretli döneme geçiş, yayındaki ilanları etkilemez. Her ilanın ücreti aynıdır ve her ilan tek bir kategoride yayınlanır. Hasadi, kullanıcılar arasındaki işlemlerden komisyon almaz.</p></section>
+  <section><h2>Kullanıcı yükümlülükleri</h2><p>İlanlarda doğru ve güncel bilgi vermek; mevzuata aykırı, yanıltıcı veya üçüncü kişilerin haklarını ihlal eden içerik paylaşmamak; ruhsat gerektiren ürünleri izinsiz satmamak; çalışanlara yasal asgari koşulları sağlamak kullanıcının sorumluluğundadır.</p></section>
+  <section><h2>Yasaklı içerik</h2><p>Canlı hayvan, ilaç ve zirai ilaç satışı, sahte veya dolandırıcılık amaçlı ilanlar, çocuk işçiliği içeren iş ilanları ve tarım dışı ilanlar yayınlanamaz.</p></section>
+  <section><h2>İlanı düzenleme</h2><p>Yayındaki ilanın fiyatı, açıklaması, fotoğrafları, tarihleri ve iletişim bilgileri değiştirilebilir. İlanın türü, kategorisi, ili ve ilçesi değiştirilemez; bunlar için yeni ilan verilmelidir. Düzenleme ilanın yayın süresini uzatmaz.</p></section>
+  <section><h2>Moderasyon</h2><p>İlanlar ödeme sonrası anında yayınlanır. Birden fazla kullanıcı tarafından şikayet edilen ilan inceleme süresince otomatik olarak gizlenir ve ilan sahibine bildirilir. İlan sahibi şikayet nedenlerini görebilir, ilanı düzeltip bir kez yeniden inceleme isteyebilir. İnceleme sonucunda kurallara aykırı bulunan ilanlar kaldırılır; gizli kalınan süre ve kaldırılan ilanlar için ücret iadesi yapılmaz. Kuralları tekrar ihlal eden hesaplar kapatılabilir.</p></section>
+  <section><h2>İlanın kapanması ve iade</h2><p>İşçi ilanları, işin bitiş tarihi geçtiğinde ödenen süre dolmamış olsa bile yayından kalkar. İlanınızı “Satıldı” veya “İşçi bulundu” olarak kendiniz kapatabilirsiniz. Süresi dolan veya kapatılan ilanlar 30 gün içinde ücreti ödenerek yeniden yayınlanabilir, ardından silinir. İlanı süresinden önce kapatmanız veya hesabınızı silmeniz halinde kalan süre için ücret iadesi yapılmaz; App Store / Google Play iade talepleri ilgili mağazanın kurallarına tabidir.</p></section>
+  <section><h2>Sorumluluğun sınırlandırılması</h2><p>Hasadi, ilan içeriklerinin doğruluğunu garanti etmez ve kullanıcılar arasındaki anlaşmazlıklardan doğan zararlardan sorumlu tutulamaz. Kullanıcıların karşı tarafla görüşmeden önce gerekli dikkati göstermesi önerilir.</p></section>
+  <section><h2>İletişim</h2><p><mark>[Şirket unvanı]</mark> · <mark>[Adres]</mark> · <mark>[e-posta adresi]</mark></p></section>
+</article></main>
+<footer>© 2026 Hasadi · <a href="gizlilik.html">Gizlilik</a> · <a href="kosullar.html">Koşullar</a> · <a href="hesap-silme.html">Hesap silme</a></footer>
+</body>
+</html>
